@@ -119,3 +119,17 @@ h1, h2 {
 }
 }
 	
+@media (max-width: 768px) {
+	.header-flex {
+		flex-direction: column;
+		text-align: center;
+	}
+.header-img {
+	height: auto;
+	width: 90%;
+	max-width: 400px;
+}
+.header-text {
+	margin-top: 1rem;
+}
+}
